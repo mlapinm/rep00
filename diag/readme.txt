@@ -1,3 +1,6 @@
+
+//////////
+
 	dlgCust->tabCust->unitReceive=unitReceive;
 	if(numShow==2)
 	{
