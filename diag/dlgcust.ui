@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgCustClass</class>
+ <widget class="QWidget" name="DlgCustClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DlgCust</string>
+  </property>
+  <widget class="QWidget" name="widCust" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>891</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="laGetBoard">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>270</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Выберите свободную плату из списка</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

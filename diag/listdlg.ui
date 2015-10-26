@@ -1,0 +1,37 @@
+<ui version="4.0" >
+ <class>listDlgClass</class>
+ <widget class="QDialog" name="listDlgClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1032</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>listDlg</string>
+  </property>
+  <widget class="List" native="1" name="widget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>971</width>
+     <height>681</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <customwidgets>
+  <customwidget>
+   <class>List</class>
+   <extends>QWidget</extends>
+   <header>list.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

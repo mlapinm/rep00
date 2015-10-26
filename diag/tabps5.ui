@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabPs5Class</class>
+ <widget class="QWidget" name="TabPs5Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabPs5</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>901</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string/>
+    </attribute>
+    <widget class="QTextEdit" name="teEd00">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>721</width>
+       <height>631</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>10</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Параметры РЛС</string>
+    </attribute>
+    <widget class="QFrame" name="frPar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>871</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label_149">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>150</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>направление 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_151">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>300</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>размах глиссады в градусах</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_152">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>330</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>размах курса в градусах</string>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdCourseAmpl">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>330</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_150">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>150</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>направление 2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_145">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>180</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>торец ВПП (нулевой километр), метры</string>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdHiVpp2">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>240</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdGlAmpl">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>300</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdPnt1">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>210</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdHiVpp1">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>240</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_147">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>240</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>высота антенны относительно торца ВПП, метры</string>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdTorNulN2">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>180</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdPnt2">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>210</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdAxVpp">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>270</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_146">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>210</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>точка посадки, метры</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_148">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>261</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>удаление от продольной оси ВПП, метры</string>
+      </property>
+     </widget>
+     <widget class="PLineEdit" name="liEdTorNulN1">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>180</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_202">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название РЛС</string>
+      </property>
+      <widget class="PLineEdit" name="liEdNameRls">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_199">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPointStandingDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdPointStandingAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_161">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_162">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_231">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuGradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuGradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Общие</string>
+    </attribute>
+    <widget class="QFrame" name="frObsch">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>881</width>
+       <height>651</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLabel" name="laBoard">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>211</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Плата ПС5</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_64">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>180</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>адрес IP</string>
+      </property>
+      <widget class="OLineEdit" name="liEdIp">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_65">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>250</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>базовый порт</string>
+      </property>
+      <widget class="OLineEdit" name="liEdPortBase">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>80</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>функциональное название платы</string>
+      </property>
+      <widget class="PLineEdit" name="liEdFuNameBoard">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_80">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>180</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>макс. длит. блока</string>
+      </property>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>мс</string>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdMaxTimeBlock">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_66">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>320</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт платы</string>
+      </property>
+      <widget class="OLineEdit" name="liEdPortBoard">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_99">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>80</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="OLineEdit" name="liEdSclonenie">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_107">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>80</y>
+        <width>131</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>курс посадки, (°)  </string>
+      </property>
+      <widget class="PLineEdit" name="liEdCourseLanding">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>250</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Комплект</string>
+      </property>
+      <widget class="QCheckBox" name="chBoComplectAuto">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>70</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>авто</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>PLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>plineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>OLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>olineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

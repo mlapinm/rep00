@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabPcm</class>
+ <widget class="QWidget" name="TabPcm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabPcm</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>811</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_39">
+    <attribute name="title">
+     <string>Общие</string>
+    </attribute>
+    <widget class="QLabel" name="label_56">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>60</y>
+       <width>211</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Плата ПСП</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_364">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>функциональное название платы</string>
+     </property>
+     <widget class="PLineEdit" name="liEdNameBoard">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_369">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>порт платы</string>
+     </property>
+     <widget class="OLineEdit" name="liEdPortBoard">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_370">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>180</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>склонение</string>
+     </property>
+     <widget class="OLineEdit" name="liEdSclonenie">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_371">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>180</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>адрес IP</string>
+     </property>
+     <widget class="OLineEdit" name="liEdIp">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_372">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>250</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>базовый порт</string>
+     </property>
+     <widget class="OLineEdit" name="liEdPortBase">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>161</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_365">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>80</y>
+       <width>201</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Входная метео информация</string>
+     </property>
+     <widget class="QRadioButton" name="raBuPcmFoot">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>101</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>в футах</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="raBuPcmMetr">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>101</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>в метрах</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>PLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>plineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>OLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>olineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

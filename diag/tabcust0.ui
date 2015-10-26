@@ -1,0 +1,6903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabCust0</class>
+ <widget class="QWidget" name="TabCust0">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabCust</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>901</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string/>
+    </attribute>
+    <widget class="QTextEdit" name="teEd00">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>721</width>
+       <height>631</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+      </font>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>740</x>
+       <y>10</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>С2</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoPoC2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_202">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPoC2Name">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_218">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoC2Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_199">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPointStandingDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdPointStandingAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_161">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_162">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_227">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>30</y>
+        <width>181</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuGradientMagnetic">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuGradientGeographic">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Лира-М</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoLiram">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_205">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdLiram">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_222">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoLiramNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_200">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdLiramPntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdLiramPntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_163">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_164">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_228">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuLiramGradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuLiramGradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_262">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoLiramNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_40">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoLiramComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoLiramComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoLiramCom">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_39">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoLiramComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_263">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoLiramNumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxLiram">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuLiramAsyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuLiramSyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>КОРС-1</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoKors1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_206">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_223">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors1Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_207">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors1PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdKors1PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_165">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_166">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_229">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors1GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors1GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_264">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoKors1Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_42">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors1ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoKors1ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors1Com">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_41">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoKors1ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_265">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoKors1NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors1">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors1Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors1Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>КОРС-2</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoKors2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_208">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_224">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors2Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_209">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors2PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdKors2PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_167">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_168">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_230">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>191</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors2GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors2GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_266">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoKors2Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_44">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors2ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoKors2ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors2Com">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>221</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_43">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoKors2ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_267">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>113</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoKors2NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors2Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors2Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>КОРС-3</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoKors3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_210">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_225">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors3Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_211">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdKors3PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdKors3PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_169">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_170">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_231">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors3GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors3GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_268">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoKors3Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_46">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoKors3ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoKors3ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors3Com">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_45">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoKors3ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_269">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoKors3NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuKors3Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuKors3Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_10">
+    <attribute name="title">
+     <string>МВРЛ1</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoMVRL1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_216">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdMVRL1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_233">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoMVRL1Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_217">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdMVRL1PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdMVRL1PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_173">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_174">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_234">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuMVRL1GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuMVRL1GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_272">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoMVRL1Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_49">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoMVRL1ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoMVRL1ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoMVRL1Com">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_50">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoMVRL1ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_273">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoMVRL1NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors1_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuMVRL1Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuMVRL1Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_11">
+    <attribute name="title">
+     <string>МВРЛ2</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoMVRL2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_235">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdMVRL2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_236">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoMVRL2Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_237">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdMVRL2PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdMVRL2PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_175">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_176">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_238">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuMVRL2GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuMVRL2GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_274">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoMVRL2Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_51">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoMVRL2ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoMVRL2ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoMVRL2Com">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_52">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoMVRL2ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_275">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoMVRL2NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors1_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuMVRL2Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuMVRL2Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_12">
+    <attribute name="title">
+     <string>Star2000</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoSt2Th">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_239">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdSt2Th">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_240">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoSt2ThNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_241">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdSt2ThPntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdSt2ThPntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_177">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_178">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_242">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>120</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuSt2ThGradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuSt2ThGradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_276">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>100</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoSt2ThNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_53">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoSt2ThComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoSt2ThComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoSt2ThCom">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>100</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_54">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoSt2ThComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_277">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoSt2ThNumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxKors1_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuSt2ThAsyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuSt2ThSyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>АРП-95</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoArp95">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_212">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdArp95">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_226">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>30</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="QComboBox" name="coBoArp95Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_213">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>20</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>точка стояния</string>
+      </property>
+      <widget class="PLineEdit" name="liEdArp95PntDistance">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="PLineEdit" name="liEdArp95PntAzimuth">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>50</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_171">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>58</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>дальность:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_172">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>51</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>азимут:</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_232">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>100</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="QRadioButton" name="raBuArp95GradMagn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>магнитное</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuArp95GradGeograph">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>141</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>географич.</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_270">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>110</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoArp95Number">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_48">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>90</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoArp95ComParity">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>20</y>
+         <width>94</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoArp95ComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>63</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>160</y>
+        <width>761</width>
+        <height>491</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="grBoArp95c_1">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 1</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_78">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_106">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_101">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_1">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_3">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>0</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 3</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_95">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_116">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_117">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_3">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_4">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>0</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 4</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_148">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_149">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_150">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_2">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>0</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 2</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_152">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_153">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_154">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_2">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 5</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_155">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_156">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_157">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_6">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>120</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 6</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_159">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_160">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_161">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_7">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>120</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 7</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_163">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_164">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_165">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_7">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_8">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>120</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 8</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_167">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_168">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_169">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 9</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_171">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_172">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_173">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_9">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_10">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>240</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 10</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_175">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_176">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_177">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_10">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_12">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>240</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 12</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_179">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_180">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_181">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_12">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_11">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>240</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 11</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_183">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_184">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_185">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_11">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>360</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 13</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_187">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_188">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_189">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_13">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_14">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>360</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 14</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_191">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_192">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_193">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_14">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_16">
+       <property name="geometry">
+        <rect>
+         <x>580</x>
+         <y>360</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 16</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_195">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_196">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_197">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_16">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="grBoArp95c_15">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>360</y>
+         <width>171</width>
+         <height>121</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>канал 15</string>
+       </property>
+       <widget class="QGroupBox" name="groupBox_201">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>задержка</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Tc_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_214">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>71</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>номер</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Nc_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>50</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_215">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>частота</string>
+        </property>
+        <widget class="PLineEdit" name="liEdArp95Fc_15">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>131</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoArp95Com">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>90</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_47">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoArp95ComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>62</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_271">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>0</y>
+         <width>113</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoArp95NumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxArp95">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>20</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuArp95Asyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuArp95Syn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>АМИС-РФ</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoPoAmis">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_203">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPoAmisName">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_219">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="OLineEdit" name="liEdAmisNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_204">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>220</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название аэродрома</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPoAmisNameEP">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_220">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoAmisNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_33">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoAmisComParity">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoAmisComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>71</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoAmisCom">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>90</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_34">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoAmisComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_221">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoAmisNumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors3Com_3">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>310</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors3Com_4">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>290</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxAmis">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuAmisAsyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuAmisSyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_13">
+    <attribute name="title">
+     <string>Тахион</string>
+    </attribute>
+    <widget class="QGroupBox" name="grBoPoTahion">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>791</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>используется</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <widget class="QGroupBox" name="groupBox_243">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>название источника</string>
+      </property>
+      <widget class="PLineEdit" name="liEdPoTahionName">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_244">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>111</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер устройства</string>
+      </property>
+      <widget class="OLineEdit" name="liEdTahionNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_246">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>110</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>номер порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoPoTahionNumber">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>00</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>01</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>02</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>03</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>04</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>05</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>06</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>07</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>08</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>09</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_35">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>201</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>параметры порта</string>
+      </property>
+      <widget class="QComboBox" name="coBoTahionComParity">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>20</y>
+         <width>101</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>без четности</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>четность</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>нечетность</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="coBoTahionComBoude">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>71</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>1200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>2400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>4800</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>9600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>19200</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>38400</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>57600</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>115200</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoTahionCom">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>90</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox_36">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>интерфейс</string>
+       </property>
+       <widget class="QComboBox" name="coBoTahionComType">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>71</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>RS-232</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RS-485</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_247">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>110</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>номер светодиода</string>
+       </property>
+       <widget class="QComboBox" name="coBoPoTahionNumberLed">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>91</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>01</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>02</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>03</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>04</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>05</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>06</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>07</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>08</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>09</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors3Com_5">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>310</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QFrame" name="frBoPoKors3Com_6">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>290</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBoxTahion">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>111</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт</string>
+      </property>
+      <widget class="QRadioButton" name="raBuTahionAsyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="text">
+        <string>асинхронный</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="raBuTahionSyn">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>91</width>
+         <height>18</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>синхронный</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_9">
+    <attribute name="title">
+     <string>Общие</string>
+    </attribute>
+    <widget class="QFrame" name="frObsch">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>0</y>
+       <width>871</width>
+       <height>661</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QGroupBox" name="groupBox_64">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>90</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>адрес IP</string>
+      </property>
+      <widget class="OLineEdit" name="liEdIp">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_66">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>230</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>порт платы</string>
+      </property>
+      <widget class="OLineEdit" name="liEdPortBoard">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_65">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>160</y>
+        <width>201</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>базовый порт</string>
+      </property>
+      <widget class="OLineEdit" name="liEdPortBase">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>161</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_99">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>90</y>
+        <width>121</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>склонение</string>
+      </property>
+      <widget class="OLineEdit" name="liEdSclonenie">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>PLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>plineedit.h</header>
+  </customwidget>
+  <customwidget>
+   <class>OLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>olineedit.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>grBoArp95</tabstop>
+  <tabstop>coBoArp95Number</tabstop>
+  <tabstop>liEdArp95</tabstop>
+  <tabstop>coBoPoArp95Number</tabstop>
+  <tabstop>coBoArp95ComBoude</tabstop>
+  <tabstop>coBoArp95ComParity</tabstop>
+  <tabstop>coBoArp95ComType</tabstop>
+  <tabstop>coBoPoArp95NumberLed</tabstop>
+  <tabstop>liEdArp95PntDistance</tabstop>
+  <tabstop>liEdArp95PntAzimuth</tabstop>
+  <tabstop>raBuArp95GradMagn</tabstop>
+  <tabstop>raBuArp95GradGeograph</tabstop>
+  <tabstop>liEdArp95Nc_1</tabstop>
+  <tabstop>liEdArp95Fc_1</tabstop>
+  <tabstop>liEdArp95Tc_1</tabstop>
+  <tabstop>liEdArp95Nc_2</tabstop>
+  <tabstop>liEdArp95Fc_2</tabstop>
+  <tabstop>liEdArp95Tc_2</tabstop>
+  <tabstop>liEdArp95Nc_3</tabstop>
+  <tabstop>liEdArp95Fc_3</tabstop>
+  <tabstop>liEdArp95Tc_3</tabstop>
+  <tabstop>liEdArp95Nc_4</tabstop>
+  <tabstop>liEdArp95Fc_4</tabstop>
+  <tabstop>liEdArp95Tc_4</tabstop>
+  <tabstop>liEdArp95Nc_5</tabstop>
+  <tabstop>liEdArp95Fc_5</tabstop>
+  <tabstop>liEdArp95Tc_5</tabstop>
+  <tabstop>liEdArp95Nc_6</tabstop>
+  <tabstop>liEdArp95Fc_6</tabstop>
+  <tabstop>liEdArp95Tc_6</tabstop>
+  <tabstop>liEdArp95Nc_7</tabstop>
+  <tabstop>liEdArp95Fc_7</tabstop>
+  <tabstop>liEdArp95Tc_7</tabstop>
+  <tabstop>liEdArp95Nc_8</tabstop>
+  <tabstop>liEdArp95Fc_8</tabstop>
+  <tabstop>liEdArp95Tc_8</tabstop>
+  <tabstop>liEdArp95Nc_9</tabstop>
+  <tabstop>liEdArp95Fc_9</tabstop>
+  <tabstop>liEdArp95Tc_9</tabstop>
+  <tabstop>liEdArp95Nc_10</tabstop>
+  <tabstop>liEdArp95Fc_10</tabstop>
+  <tabstop>liEdArp95Tc_10</tabstop>
+  <tabstop>liEdArp95Nc_11</tabstop>
+  <tabstop>liEdArp95Fc_11</tabstop>
+  <tabstop>liEdArp95Tc_11</tabstop>
+  <tabstop>liEdArp95Nc_12</tabstop>
+  <tabstop>liEdArp95Fc_12</tabstop>
+  <tabstop>liEdArp95Tc_12</tabstop>
+  <tabstop>liEdArp95Nc_13</tabstop>
+  <tabstop>liEdArp95Fc_13</tabstop>
+  <tabstop>liEdArp95Tc_13</tabstop>
+  <tabstop>liEdArp95Nc_14</tabstop>
+  <tabstop>liEdArp95Fc_14</tabstop>
+  <tabstop>liEdArp95Tc_14</tabstop>
+  <tabstop>liEdArp95Nc_15</tabstop>
+  <tabstop>liEdArp95Fc_15</tabstop>
+  <tabstop>liEdArp95Tc_15</tabstop>
+  <tabstop>liEdArp95Nc_16</tabstop>
+  <tabstop>liEdArp95Fc_16</tabstop>
+  <tabstop>liEdArp95Tc_16</tabstop>
+  <tabstop>teEd00</tabstop>
+  <tabstop>raBuGradientMagnetic</tabstop>
+  <tabstop>raBuGradientGeographic</tabstop>
+  <tabstop>grBoLiram</tabstop>
+  <tabstop>liEdLiram</tabstop>
+  <tabstop>grBoPoC2</tabstop>
+  <tabstop>liEdPointStandingAzimuth</tabstop>
+  <tabstop>liEdPointStandingDistance</tabstop>
+  <tabstop>coBoPoC2Number</tabstop>
+  <tabstop>liEdPoC2Name</tabstop>
+  <tabstop>liEdLiramPntAzimuth</tabstop>
+  <tabstop>coBoLiramNumber</tabstop>
+  <tabstop>liEdLiramPntDistance</tabstop>
+  <tabstop>coBoLiramComParity</tabstop>
+  <tabstop>coBoPoLiramNumberLed</tabstop>
+  <tabstop>coBoLiramComType</tabstop>
+  <tabstop>liEdKors1</tabstop>
+  <tabstop>coBoLiramComBoude</tabstop>
+  <tabstop>grBoKors1</tabstop>
+  <tabstop>coBoPoLiramNumber</tabstop>
+  <tabstop>raBuLiramGradMagn</tabstop>
+  <tabstop>raBuLiramGradGeograph</tabstop>
+  <tabstop>liEdKors1PntAzimuth</tabstop>
+  <tabstop>coBoKors1Number</tabstop>
+  <tabstop>liEdKors1PntDistance</tabstop>
+  <tabstop>coBoPoKors1Number</tabstop>
+  <tabstop>raBuKors1GradMagn</tabstop>
+  <tabstop>raBuKors1GradGeograph</tabstop>
+  <tabstop>coBoKors1ComParity</tabstop>
+  <tabstop>coBoPoKors1NumberLed</tabstop>
+  <tabstop>coBoKors1ComType</tabstop>
+  <tabstop>liEdKors2</tabstop>
+  <tabstop>coBoKors1ComBoude</tabstop>
+  <tabstop>grBoKors2</tabstop>
+  <tabstop>liEdKors2PntAzimuth</tabstop>
+  <tabstop>coBoKors2Number</tabstop>
+  <tabstop>liEdKors2PntDistance</tabstop>
+  <tabstop>coBoPoKors2Number</tabstop>
+  <tabstop>raBuKors2GradMagn</tabstop>
+  <tabstop>raBuKors2GradGeograph</tabstop>
+  <tabstop>liEdKors3</tabstop>
+  <tabstop>coBoKors2ComBoude</tabstop>
+  <tabstop>grBoKors3</tabstop>
+  <tabstop>coBoKors2ComParity</tabstop>
+  <tabstop>coBoPoKors2NumberLed</tabstop>
+  <tabstop>coBoKors2ComType</tabstop>
+  <tabstop>liEdKors3PntAzimuth</tabstop>
+  <tabstop>coBoKors3Number</tabstop>
+  <tabstop>liEdKors3PntDistance</tabstop>
+  <tabstop>coBoPoKors3Number</tabstop>
+  <tabstop>raBuKors3GradMagn</tabstop>
+  <tabstop>raBuKors3GradGeograph</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>coBoKors3ComBoude</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>coBoKors3ComParity</tabstop>
+  <tabstop>coBoPoKors3NumberLed</tabstop>
+  <tabstop>coBoKors3ComType</tabstop>
+  <tabstop>grBoPoAmis</tabstop>
+  <tabstop>liEdPoAmisName</tabstop>
+  <tabstop>liEdAmisNumber</tabstop>
+  <tabstop>liEdPoAmisNameEP</tabstop>
+  <tabstop>coBoPoAmisNumber</tabstop>
+  <tabstop>coBoPoAmisNumberLed</tabstop>
+  <tabstop>coBoAmisComType</tabstop>
+  <tabstop>coBoAmisComParity</tabstop>
+  <tabstop>coBoAmisComBoude</tabstop>
+  <tabstop>liEdPortBase</tabstop>
+  <tabstop>liEdIp</tabstop>
+  <tabstop>liEdPortBoard</tabstop>
+  <tabstop>liEdSclonenie</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
