@@ -5,7 +5,7 @@
 QString frDATE(QString str0=__DATE__)
 {
 	QString str1,str2,strend;
-
+	//mm
 	str0=__DATE__;
 	QStringList lstr,lm;
 	lstr=str0.split(" ",QString::SkipEmptyParts);
