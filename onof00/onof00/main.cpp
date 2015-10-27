@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	QTextCodec::setCodecForCStrings(QTextCodec::codecForName("cp1251"));
 	QApplication a(argc, argv);
 	QString str;
-
+//123
 	str = a.objectName();
 	qDebug()<<str;
 	MainWindow w;
