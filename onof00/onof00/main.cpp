@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 	QString str;
 //123
 //123
-//123
 	str = a.objectName();
 	qDebug()<<str;
 	MainWindow w;
